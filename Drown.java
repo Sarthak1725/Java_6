@@ -1,4 +1,5 @@
 // Drown.java 
+// Implements drowning behavior
 
 
 public class Drown implements SwimBehavior {
