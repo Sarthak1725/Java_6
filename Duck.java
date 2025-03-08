@@ -14,7 +14,18 @@ public abstract class Duck {
     }
 
     // Method to perform fly action
-    
+    public void performFly() {
+        flyBehavior.fly();
+    }
+
+    // Method to perform swim action
+    public void performSwim() {
+        swimBehavior.swim();
+    }
+
+    // Method to perform quack action
+    public void performQuack() {
+        quackBehavior.quack();
     }
 
     // Abstract method to be implemented by specific ducks
